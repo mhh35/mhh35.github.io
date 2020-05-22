@@ -64,4 +64,10 @@ main section img {
 
 footer {
     background-color: #AEAEAE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second {
+    text-align: right;
 }
