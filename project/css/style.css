@@ -6,6 +6,11 @@ header, main, footer {
     margin: 0 auto;
     font-family: cursive, arial, sans-serif; 
     padding: 10px;
+    border-radius: 10px;
+  }
+
+  body {
+    background-color: #AEAEAE;
   }
 
   header {
@@ -17,6 +22,7 @@ header, main, footer {
   header img {
       width: 175px;
       height: auto;
+      border-radius: 10px;
   }
 
   .cake {
@@ -47,25 +53,32 @@ main section p {
     border: .20rem solid #FFFFFF;
     margin: .50rem;
     padding: 1rem;
-    background-color: #5CE1E6;
+    background-color: #38B6FF;
+    border-radius: 10px;
 }
 
 main section h2 {
     font-size: 2rem;
     font-family: sans-serif;
-    background-color:#006DFF;
+    background-color: #0B5DB9;
     padding: 1rem;
+    border-radius: 10px;
 }
 
 main section img {
     margin: .50rem;
     padding: .50rem;
+    border-radius: 15px;
 }
 
 footer {
     background-color: #AEAEAE;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+main div a {
+    border-radius: 10px;
 }
 
 .second {
