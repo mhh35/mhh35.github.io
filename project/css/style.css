@@ -71,6 +71,10 @@ main section img {
     border-radius: 15px;
 }
 
+main section {
+    display: grid;
+}
+
 footer {
     background-color: #AEAEAE;
     display: grid;
