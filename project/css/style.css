@@ -1,33 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Spartan&display=swap');
 
 header, main, footer {
+    font-size: 16px;
     max-width: 960px;
     margin: 0 auto;
-    font-family: cursive, sans-serif;
+    font-family: cursive, arial, sans-serif; 
     padding: 10px;
   }
 
-  header h1 {
+  header {
       background-color: #AEAEAE;
+      display: flex;
+      align-items: center;
+  }
+  
+  header img {
+      width: 175px;
+      height: auto;
+  }
+
+  .cake {
+      display: flex;
+      align-items: center;
+      list-style: none;
+  }
+
+  header nav ul li a {
+      display: block;
+      font-family: cursive, Arial, sans-serif;
+      padding: .50rem;
+      text-decoration: none;
+      font-size: 16px;
+  }
+
+  .milk {
+      padding: .75rem;
   }
 
 body {
-
     font-size:16px;
     background-color: #FFFFFF;
+    font-family: cursive, monospace, arial;
 }
 
 main section p {
-    border: 1px solid #FFFFFF;
-    margin: 5px;
-    padding: 10px;
+    border: .20rem solid #FFFFFF;
+    margin: .50rem;
+    padding: 1rem;
     background-color: #5CE1E6;
 }
 
-h2 {
-    font-family:sans-serif;
+main section h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
     background-color:#006DFF;
-    padding: 10px;
+    padding: 1rem;
+}
+
+main section img {
+    margin: .50rem;
+    padding: .50rem;
 }
 
 footer {
