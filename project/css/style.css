@@ -33,7 +33,6 @@ header, main, footer {
 
   header nav ul li a {
       display: block;
-      font-family: cursive, Arial, sans-serif;
       padding: .50rem;
       text-decoration: none;
       font-size: 16px;
@@ -46,7 +45,6 @@ header, main, footer {
 body {
     font-size:16px;
     background-color: #FFFFFF;
-    font-family: cursive, monospace, arial;
 }
 
 main section p {
