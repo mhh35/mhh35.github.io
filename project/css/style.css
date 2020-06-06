@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Spartan&display=swap');
 
 header, main, footer {
-    font-size: 16px;
     max-width: 960px;
     margin: 0 auto;
     font-family: cursive, arial, sans-serif; 
@@ -10,7 +9,8 @@ header, main, footer {
   }
 
   body {
-    background-color: #AEAEAE;
+    font-size: 16px;
+    background-image: linear-gradient(white, #0B5DB9)
   }
 
   header {
@@ -25,6 +25,13 @@ header, main, footer {
       border-radius: 10px;
   }
 
+  .imageone, .imagetwo {
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #999;
+    width: 100%;
+    height: auto;
+  }
+
   .cake {
       display: flex;
       align-items: center;
@@ -32,45 +39,59 @@ header, main, footer {
   }
 
   header nav ul li a {
+
       display: block;
       padding: .50rem;
       text-decoration: none;
       font-size: 16px;
   }
 
+  header nav ul li a:hover{
+      color: black;
+  }
+
   .milk {
       padding: .75rem;
   }
 
-body {
-    font-size:16px;
-    background-color: #FFFFFF;
+.action {
+    background-color: #BFEDFF;
+    opacity: 0.75;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    height: 100px;
+    border-radius: 10px;
+    padding: .45rem;
+    text-align: center;
 }
 
-main section p {
+.wrapper {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.last {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+}
+
+main section p h2 {
     border: .20rem solid #FFFFFF;
     margin: .50rem;
     padding: 1rem;
-    background-color: #38B6FF;
-    border-radius: 10px;
 }
 
-main section h2 {
-    font-size: 2rem;
-    font-family: sans-serif;
-    background-color: #0B5DB9;
-    padding: 1rem;
-    border-radius: 10px;
+h2 {
+    text-align: center;
 }
 
 main section img {
     margin: .50rem;
     padding: .50rem;
     border-radius: 15px;
-}
-
-main section {
-    display: grid;
 }
 
 footer {
@@ -83,6 +104,48 @@ main div a {
     border-radius: 10px;
 }
 
-.second {
-    text-align: right;
+.first {
+margin-left: 5.5rem;
 }
+
+.second {
+    text-align: center;
+}
+
+.copyright {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen and (max-width: 550px) {
+    .______ {
+      display: block;
+    }
+  }
