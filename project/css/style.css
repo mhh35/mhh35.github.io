@@ -32,7 +32,13 @@ header, main, footer {
     height: auto;
   }
 
-  .cake {
+  .amenitiesimage {
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px #999;
+    padding: .25rem;
+  }
+
+  .links {
       display: flex;
       align-items: center;
       list-style: none;
@@ -50,7 +56,7 @@ header, main, footer {
       color: black;
   }
 
-  .milk {
+  header h1 {
       padding: .75rem;
   }
 
@@ -66,13 +72,32 @@ header, main, footer {
     text-align: center;
 }
 
+.houston {
+    background-color: #4F87A2;
+    opacity: 0.75;
+    position: absolute;
+    top: 35rem;
+    left: 32rem;
+    height: 4rem;
+    border-radius: 10px;
+    padding: .45rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
 .wrapper {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr;
 }
 
-.last {
+.spotlight {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.last, .reservation {
     width: 100%;
     height: 100%;
     grid-column: 1/3;
@@ -87,6 +112,10 @@ main section p h2 {
 h2 {
     text-align: center;
 }
+
+ h1 {
+     text-align: center;
+ }
 
 main section img {
     margin: .50rem;
@@ -111,6 +140,15 @@ margin-left: 5.5rem;
 .second {
     text-align: center;
 }
+
+.more {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 25px;
+}
+
 
 .copyright {
     display: grid;
@@ -148,4 +186,13 @@ margin-left: 5.5rem;
     .______ {
       display: block;
     }
+  }
+
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-color: #AEAEAE;
+    border-radius: 1em;
   }
