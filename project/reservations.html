@@ -31,39 +31,57 @@
             <h1>Family Inn & Suites Reservations</h1>
         </section>
         <div>
-            <form action="/action_page.php">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="checkIn">Check in:</label>
-                <input type="date" id="checkIn" name="checkIn"><br>
-                <label for="checkOut">Check out:</label>
-                <input type="date" id="checkOut" name="checkOut"><br>
-                <label for="people">How many guests:</label>
-                <select name="people" id="people">
-                    <option value="people">How many guests</option>
-                    <option value="one">1</option>
-                    <option value="two">2</option>
-                    <option value="three">3</option>
-                    <option value="four">4</option>
-                    <option value="five">5</option>
-                    <option value="six">6</option>
-                </select><br>
-                <label for="bed">How many beds:</label>
-                <select name="bed" id="bed">
-                    <option value="bed">How many beds</option>
-                    <option value="one">1</option>
-                    <option value="two">2</option>
-                    <option value="three">3</option>
-                    <option value="four">4</option>
-                    <option value="five">5</option>
-                    <option value="six">6</option>
-                </select><br>
-                <label for="size">What size beds:</label>
-                <input type="text" id="size" name="size"><br>
-                <input type="submit">
-            </form>
+            <ul>
+                <form action="/action_page.php">
+                    <li>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                    </li>
+                    <li>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br>
+                    </li>
+                    <li>
+                        <label for="checkIn">Check in:</label>
+                        <input type="date" id="checkIn" name="checkIn"><br>
+                    </li>
+                    <li>
+                        <label for="checkOut">Check out:</label>
+                        <input type="date" id="checkOut" name="checkOut"><br>
+                    </li>
+                    <li>
+                        <label for="people">Guests:</label>
+                        <select name="people" id="people">
+                            <option value="people">Guests</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select><br>
+                    </li>
+                    <li>
+                        <label for="bed">Beds:</label>
+                        <select name="bed" id="bed">
+                            <option value="bed">Beds</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select><br>
+                    </li>
+                    <li>
+                        <label for="size">Bed size:</label>
+                        <input type="text" id="size" name="size"><br>
+                    </li>
+                    <li class="button">
+                        <input type="submit">
+                    </li>
+                </form>
+            </ul>
         </div>
     </main>
     <footer>
