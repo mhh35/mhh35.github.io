@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            box-shadow: 1px 1px 4px 1px #888;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .words {
+            padding: 12px;
+        }
+
+        span {
+            margin-left: 150px;
+        }
+
+        footer {
+            padding: 12px;
+        }
+
+        button,
+        span {
+            color: #888;
+        }
+
+        .editButton {
+            margin-left: -3.7px;
+            border: black solid 1px;
+        }
+
+        .viewButton {
+            border: black solid 1px;
+            border-right: none;
+        }
+    </style>
+</head>
+
+<body>
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="picture">
+        <p class="words">This is a wider card with supporting text below as a natural lead-in to additional content.
+            This content is a
+            little bit longer.</p>
+        <footer>
+            <button type="button" class="viewButton">View</button>
+            <button type="button" class="editButton">Edit</button>
+            <span>9 mins</span>
+        </footer>
+    </article>
+</body>
+
+</html>
