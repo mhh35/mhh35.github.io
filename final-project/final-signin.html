@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="links">
+                <li class="link"><a href="final-blog.html">Blog</a></li>
+                <li><a href="index.html"><img src="images-final/finallogos.jpg" alt="logo"></a></li>
+                <li class="link"><a href="final-signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="images-final/wordywoods.jpg" alt="Hero Image">
+        <div id="feedback"></div>
+        <div class="sign">
+            Sign in
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" name="user_password">
+                </li>
+                <li class="button">
+                    <button type="submit">Sign In</button>
+                </li>
+            </ul>
+        </form>
+        <div class="sign">
+            Not a Member? <br> Register Below
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="mail">First Name:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="mail">Last Name:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" name="user_password">
+                </li>
+                <li>
+                    <label for="password">Repeat Password:</label>
+                    <input type="text" id="password" name="user_password">
+                </li>
+                <li>
+                    <input type="checkbox" id="notifications" name="notifications" value="notifications">
+                    <label for="notifications">Subscribe</label><br>
+                </li>
+                <li class="button">
+                    <button type="submit">Register</button>
+                </li>
+            </ul>
+        </form>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form element so we can read what was entered in it.
+            const formElement = document.forms[0];
+
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function (e) {
+                // stop the form from doing the default action
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value +
+                    '! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+            });
+        </script>
+    </main>
+    <footer class="foot">
+        <div class="first">
+            What They Don't Tell Us <br>
+            10318 Country Club Dr. <br>
+            Dallas, TX 75218 <br>
+            214-340-3636 <br>
+            info@conspiracy.com <br>
+        </div>
+        <div class="second">
+            <a href="https://facebook.com" target="_blank"><img class="sociallinks" src="/images/new-facebook.jpg"
+                    alt="Facebook Icon"></a>
+            <a href="https://twitter.com" target="_blank"><img class="sociallinks" src="/images/twitter.png"
+                    alt="Twitter Icon"></a>
+            <a href="https://instagram.com" target="_blank"><img class="sociallinks" src="/images/new.instagram.png"
+                    alt="Instagram Icon"></a>
+        </div>
+        <p class="copyright">
+            &copy;Copyright 2020 What they Don't Tell Us | All Rights Reserved | Privacy and Cookie Statement | Mallory
+            Moreno
+        </p>
+    </footer>
+
+</body>
+
+</html>
