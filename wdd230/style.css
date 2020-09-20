@@ -1,0 +1,14 @@
+header,
+main,
+footer {
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: Tajawal, Merriweather Sans, arial;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header,
+footer {
+    background-color: lightseagreen;
+}
