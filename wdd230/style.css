@@ -11,4 +11,9 @@ footer {
 header,
 footer {
     background-color: lightseagreen;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
