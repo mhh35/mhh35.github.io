@@ -1,0 +1,23 @@
+html {
+    text-align: center;
+}
+
+.wrapper {
+display: grid;
+grid-template-columns: 1fr;
+}
+
+img {
+    width: 20em;
+}
+
+header,
+footer {
+    background-color: lightpink;
+}
+
+section {
+    background-color: grey;
+    border-radius: .5em;
+    margin: .5em;
+}
