@@ -1,6 +1,6 @@
 .wrapper {
 display: grid;
-grid-gap: .5em;
+grid-gap: 1.5em;
 }
 
 img {
@@ -14,11 +14,17 @@ footer {
     font-size: 22px;
     background-color: lightsteelblue;
     border-radius: .5em;
+    margin: .5em;
 }
 
 section {
     font-size: 20px;
     background-color: lightgray;
-    border-radius: .5em;
+    border-radius: 1em;
     padding: .5em;
+}
+
+h2 {
+    background-color: lightsteelblue;
+    padding: .25em;
 }
