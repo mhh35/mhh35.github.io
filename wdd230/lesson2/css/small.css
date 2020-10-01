@@ -1,30 +1,30 @@
 .wrapper {
-display: grid;
-grid-gap: 1.5em;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-header,
-footer {
-    text-align: center;
-    font-size: 22px;
-    background-color: lightsteelblue;
-    border-radius: .5em;
-    margin: .5em;
-}
-
-section {
-    font-size: 20px;
-    background-color: lightgray;
-    border-radius: 1em;
-    padding: .5em;
-}
-
-h2 {
-    background-color: lightsteelblue;
-    padding: .25em;
-}
+    display: grid;
+    grid-gap: 1.5em;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    header,
+    footer {
+        text-align: center;
+        font-size: 22px;
+        background-color: lightsteelblue;
+        border-radius: .5em;
+        margin: .5em;
+    }
+    
+    section {
+        font-size: 20px;
+        background-color: lightgray;
+        border-radius: 1em;
+        padding: .5em;
+    }
+    
+    h2 {
+        background-color: lightsteelblue;
+        padding: .25em;
+    }
