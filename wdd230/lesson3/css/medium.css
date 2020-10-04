@@ -1,3 +1,16 @@
 @media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: flex;
+    }
 
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .target {
+        grid-column: 1/3;
+    }
 }
