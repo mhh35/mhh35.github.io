@@ -1,15 +1,8 @@
-@media only screen and (min-width: 39em) {
-    .navigation {
-		display: flex;
+@media only screen and (min-width: 60em) {
+	body {
+		font-size: 16px;
 	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
+	img {
+		width: 130px;
 	}
 }

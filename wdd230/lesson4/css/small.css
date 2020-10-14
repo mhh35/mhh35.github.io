@@ -2,29 +2,31 @@ body {
     font-size: 14px;
     font-family: 'Poppins', sans-serif, arial;
     background-color: mintcream;
-    max-width: 900px;
     margin: 0 auto;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: 'Josefin Sans', sans-serif, arial;
 }
 
 img {
-    width: 150px;
+    width: 110px;
     height: auto;
 }
 
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
-nav ul li {
-    padding: 1rem;
-}
 
 nav ul li a {
     color: black;
@@ -38,52 +40,67 @@ nav ul li a:hover {
     color: #d00000;
 }
 
-header,
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
 footer {
     text-align: center;
     background-color: #d00000;
     border-radius: .3rem;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 880px;
+    margin: 0 auto;
 }
 
 nav {
-	margin: 0 auto;
-	max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
     background-color: #3f88c5;
- 
+
 }
 
 .navigation {
-	list-style: none;
-	padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
 
 .navigation li {
-	display: none;
+    display: none;
 }
 
 .navigation a {
-	display: block;
-	padding: .5rem;
-	text-align: left;
-	text-decoration: none;
-	color: black;
+    padding: .75rem;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
     font-weight: 900;
-    font-size: 11.75px;
 }
 
 .navigation a:hover {
-	color: white;
-	background-color: black;
+    color: white;
+    background-color: black;
 }
 
 /*Will display as block elements when menu is clicked*/
 .responsive li {
-	display: block;
+    display: block;
 }
+
 .contentbox {
     display: block;
     margin: 10px auto;
@@ -91,3 +108,4 @@ nav {
     padding: 15px;
     color: #444;
     font-style: italic;
+}
